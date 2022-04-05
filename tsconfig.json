@@ -16,7 +16,10 @@
 		"incremental": true,
 		"baseUrl": ".",
 		"paths": {
-			"@assets/*": ["src/assets/*"]
+			"@assets/*": ["src/assets/*"],
+			"@config/*": ["src/config/*"],
+			"@layout/*": ["src/layout/*"],
+			"@shared/*": ["src/shared/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
