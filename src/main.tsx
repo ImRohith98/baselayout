@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { queryClient } from './config';
-import { theme } from './assets/styles';
-import ApplicationRouter from './router';
+import { queryClient } from '@/config';
+import { theme } from '@/assets/styles';
+import ApplicationRouter from '@/router';
 import { BrowserRouter } from 'react-router-dom';
 import { ChakraProvider, CSSReset } from '@chakra-ui/react';
 import { QueryClientProvider } from 'react-query';
