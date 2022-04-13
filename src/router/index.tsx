@@ -12,7 +12,7 @@ type RouteWithChildren = Route & {
 const routes: RouteWithChildren[] = [
     {
         path: '/',
-        element: <div>home screen</div>
+        element: <div>home screen {import.meta.env.VITE_APP_NAME}</div>
     }
 ];
 
