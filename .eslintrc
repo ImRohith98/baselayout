@@ -12,13 +12,13 @@
 		"prettier"
 	],
 	"plugins": ["react", "@typescript-eslint", "prettier"],
-	"env": { "browser": true, "es2021": true },
+	"env": { "browser": true, "node": true },
 	"settings": {
 		"react": {
-			"version": "17.0.2"
+			"version": "detect"
 		}
 	},
 	"rules": {
-		"prettier/prettier": "error"
+		"prettier/prettier": ["error"]
 	}
 }
