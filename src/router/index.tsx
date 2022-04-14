@@ -1,19 +1,19 @@
 import { useRoutes } from 'react-router-dom';
 
 interface Route {
-    path: string,
-    element: React.ReactElement
+	path: string;
+	element: React.ReactElement;
 }
 
 type RouteWithChildren = Route & {
-    children?: Route[]
-}
+	children?: Route[];
+};
 
 const routes: RouteWithChildren[] = [
-    {
-        path: '/',
-        element: <div>env : {import.meta.env.VITE_APP_NAME}</div>
-    }
+	{
+		path: '/',
+		element: <div>env : {import.meta.env.VITE_APP_NAME}</div>
+	}
 ];
 
 const ApplicationRouter = () => useRoutes(routes);

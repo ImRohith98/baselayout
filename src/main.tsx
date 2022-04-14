@@ -22,4 +22,4 @@ const Application = (
 	</React.StrictMode>
 );
 
-ReactDOM.render(Application, container)
+ReactDOM.render(Application, container);
